@@ -6,7 +6,7 @@
 /*   By: yyargici <yyargici@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/01 16:29:37 by yyargici          #+#    #+#             */
-/*   Updated: 2024/02/01 18:11:11 by yyargici         ###   ########.fr       */
+/*   Updated: 2024/02/03 13:36:20 by yyargici         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,4 +20,3 @@ void	ft_is_negative(int start)
 	else
 		write(1, &"N", 1);
 }
-

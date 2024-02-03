@@ -6,13 +6,13 @@
 /*   By: yyargici <yyargici@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/30 13:18:11 by yyargici          #+#    #+#             */
-/*   Updated: 2024/01/30 13:25:56 by yyargici         ###   ########.fr       */
+/*   Updated: 2024/02/03 13:09:38 by yyargici         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void    ft_putchar(char c)
+void	ft_putchar(char c)
 {
-        write(1, &c, 1);
+	write(1, &c, 1);
 }

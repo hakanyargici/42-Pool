@@ -6,20 +6,21 @@
 /*   By: yyargici <yyargici@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/30 14:23:43 by yyargici          #+#    #+#             */
-/*   Updated: 2024/01/30 14:27:19 by yyargici         ###   ########.fr       */
+/*   Updated: 2024/02/03 13:28:38 by yyargici         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void    ft_print_alphabet(void)
+void	ft_print_reverse_alphabet(void)
 {
-        char    start;
+	char	start;
 
-        start = 'z';
-        while ('a' <= start)
-        {
-                write(1, &start, 1);
-                start--;
-        }     
+	start = 'z' ;
+	while ('a' <= start)
+	{
+		write(1, &start, 1);
+		start--;
+	}
+	write(1, "\n", 1);
 }
