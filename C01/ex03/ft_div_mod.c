@@ -1,24 +1,23 @@
-#include <stdio.h>
 
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {
-	if (a != 0 || b != 0)
+	if (b != 0)
 	{
 		*div = a / b;
 		*mod = a % b;
 	}
 }
 
+#include <stdio.h>
+
 int	main()
 {
-	int a = 10;
-	int b = 5;
-	int	x;
-	int	y;
+	int	x = 42;
+	int	y = 21;
+	int	bolum;
+	int	kalan;
 
-	ft_div_mod(a, b, &x, &y);
-	printf("%d\n", x);
-	printf("%d", y);
-	return 0;
-
+	ft_div_mod(x, y, &bolum, &kalan);
+	printf("%d\n", bolum);
+	printf("%d", kalan);
 }

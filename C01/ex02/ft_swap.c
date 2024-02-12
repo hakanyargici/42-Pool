@@ -1,22 +1,21 @@
-#include <stdio.h>
 
-void    ft_swap(int *a, int *b)
+void	ft_swap(int *a, int *b)
 {
-    int swap;
+	int	swap;
 
-    swap = *a;
-    *a = *b;
-    *b = swap;
+	swap = *a;
+	*a = *b;
+	*b = swap;
 }
 
-int main()
+#include <stdio.h>
+
+int	main()
 {
-	int x = 5;
+	int x = 4;
 	int y = 2;
 
 	ft_swap(&x, &y);
 	printf("%d\n", x);
 	printf("%d", y);
-	
-	return 0;
 }

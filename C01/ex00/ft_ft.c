@@ -1,20 +1,15 @@
-#include <stdio.h>
 
-void    ft_ft(int *nbr)
+void	ft_ft(int *nbr)
 {
-    *nbr = 42;
+	*nbr = 42;
 }
 
-int main()
+#include <stdio.h>
+
+int	main()
 {
-    // int ptr;
-    // int *nbr;
+	int ptr;
 
-    // nbr = &ptr;
-    // ft_ft(nbr);
-    // printf("%d", ptr);
-
-    int ptr;
-    ft_ft(&ptr);
-    printf("%d", ptr);
+	ft_ft(&ptr);
+	printf("%d", ptr);
 }
