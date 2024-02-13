@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strupcase.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rabiyatanbas <rabiyatanbas@student.42.f    +#+  +:+       +#+        */
+/*   By: yyargici <yyargici@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/12 00:28:41 by rabiyatanba       #+#    #+#             */
-/*   Updated: 2024/02/12 00:28:44 by rabiyatanba      ###   ########.fr       */
+/*   Created: 2024/02/13 18:24:25 by yyargici          #+#    #+#             */
+/*   Updated: 2024/02/13 18:24:26 by yyargici         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

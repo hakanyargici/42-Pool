@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_numeric.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rabiyatanbas <rabiyatanbas@student.42.f    +#+  +:+       +#+        */
+/*   By: yyargici <yyargici@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/12 00:25:02 by rabiyatanba       #+#    #+#             */
-/*   Updated: 2024/02/12 00:25:29 by rabiyatanba      ###   ########.fr       */
+/*   Created: 2024/02/13 18:23:53 by yyargici          #+#    #+#             */
+/*   Updated: 2024/02/13 18:23:53 by yyargici         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

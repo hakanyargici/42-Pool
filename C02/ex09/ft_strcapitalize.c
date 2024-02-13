@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcapitalize.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rabiyatanbas <rabiyatanbas@student.42.f    +#+  +:+       +#+        */
+/*   By: yyargici <yyargici@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/12 00:32:34 by rabiyatanba       #+#    #+#             */
-/*   Updated: 2024/02/12 00:33:38 by rabiyatanba      ###   ########.fr       */
+/*   Created: 2024/02/13 18:24:46 by yyargici          #+#    #+#             */
+/*   Updated: 2024/02/13 18:30:40 by yyargici         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,23 +27,23 @@ char	*ft_strlowcase(char *str)
 char	*ft_strcapitalize(char *str)
 {
 	int		i;
-	int		i1;
+	int		j;
 
 	i = 0;
-	i1 = 1;
+	j = 1;
 	ft_strlowcase(str);
 	while (str[i] != '\0')
 	{
 		if (str[i] >= 'a' && str[i] <= 'z')
 		{
-			if (i1 == 1)
+			if (j == 1)
 				str[i] -= 32;
-			    i1 = 0;
+			    j = 0;
 		}
 		else if (str[i] >= '0' && str[i] <= '9')
-			i1 = 0;
+			j = 0;
 		else
-			i1 = 1;
+			j = 1;
 		i++;
 	}
 	return (str);

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rabiyatanbas <rabiyatanbas@student.42.f    +#+  +:+       +#+        */
+/*   By: yyargici <yyargici@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/11 16:03:38 by rtanbas           #+#    #+#             */
-/*   Updated: 2024/02/11 22:54:09 by rabiyatanba      ###   ########.fr       */
+/*   Created: 2024/02/13 18:23:36 by yyargici          #+#    #+#             */
+/*   Updated: 2024/02/13 18:23:37 by yyargici         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

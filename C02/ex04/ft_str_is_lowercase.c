@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_lowercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rabiyatanbas <rabiyatanbas@student.42.f    +#+  +:+       +#+        */
+/*   By: yyargici <yyargici@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/12 00:26:09 by rabiyatanba       #+#    #+#             */
-/*   Updated: 2024/02/12 00:26:21 by rabiyatanba      ###   ########.fr       */
+/*   Created: 2024/02/13 18:24:02 by yyargici          #+#    #+#             */
+/*   Updated: 2024/02/13 18:24:02 by yyargici         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
